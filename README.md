@@ -1,14 +1,14 @@
-### qcloud-serverless-redis
+# qcloud-serverless-redis
 
 一个可以在腾讯云 serverless 中稳定运行的 redis 工具库（目前只有 set 和 get 方法）
 
-### Install
+## Install
 
 ```
 npm install qcloud-serverless-redis
 ```
 
-#### Usage
+## Usage
 
 ```js
 "use strict";
@@ -30,4 +30,4 @@ exports.main_handler = async (event, context, callback) => {
 };
 ```
 
-如果有更好的想法可以联系我
+如果有更好的想法可以提 issue
